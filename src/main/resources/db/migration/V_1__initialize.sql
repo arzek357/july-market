@@ -1,0 +1,2 @@
+TRUNCATE TABLE products RESTART IDENTITY CASCADE;
+INSERT INTO products (title, price) VALUES ('Apple', 70), ('Bucket', 40), ('Water', 50), ('Orange', 15), ('Banana', 15), ('IceCream', 150), ('Potato', 25), ('Tomato', 30), ('Stick', 3), ('Knife', 200);
